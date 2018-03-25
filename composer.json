@@ -1,0 +1,19 @@
+{
+    "name": "cmder/hello",
+    "description": "echo hello",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cmderQ",
+            "email": "1257698043@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    }
+}
